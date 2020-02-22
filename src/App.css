@@ -1,0 +1,63 @@
+.App {
+  margin-top: -20px;
+  width: 100vw;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  background-color: #10A881;
+}
+
+.main-div {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#drum-machine {
+  width: 600px;
+  background-color: #b3b3b3;
+  padding: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.drum-pads {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+i {
+  font-size: 50px;
+  color: #10A881;
+  margin-top: 38px;
+}
+
+.switching {
+  display: flex;
+  justify-content: space-between;
+
+}
+.show-on-off {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #10A881;
+}
+.drum-pad {
+  width: 100px;
+  height: 60px;
+  background-color: rgb(143, 143, 143);
+  margin: 10px 10px 0 0;
+  border-radius: 5px;
+  padding-top: 35px;
+  cursor: pointer;
+}
+#display {
+  width: 150px;
+  background-color: rgb(143, 143, 143);
+  text-align: center;
+  padding: 15px;
+}
